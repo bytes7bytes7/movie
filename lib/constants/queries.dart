@@ -58,3 +58,6 @@ query getMovies($first: Int!, $skip: Int!) {
 }
 
 ''';
+
+const getMovieActors = '''
+''';

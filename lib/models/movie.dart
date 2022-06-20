@@ -1,6 +1,7 @@
 import '../constants/movie.dart' as const_movie;
 
 class Movie {
+  final String? id;
   final String? title;
   final String? description;
   final String? cover;
@@ -9,7 +10,8 @@ class Movie {
   final List<String>? genres;
 
   Movie.fromJson(Map<String, dynamic> json)
-      : title = json[const_movie.title],
+      : id = json[const_movie.id],
+        title = json[const_movie.title],
         description = json[const_movie.description],
         cover = json[const_movie.cover],
         bigCover = json[const_movie.bigCover],

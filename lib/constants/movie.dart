@@ -1,6 +1,7 @@
 const movie = 'movie';
 const movies = 'movies';
 
+const id = 'id';
 const title = 'title';
 const description = 'description';
 const cover = 'cover';

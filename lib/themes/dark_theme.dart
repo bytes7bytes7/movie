@@ -33,11 +33,6 @@ final ThemeData darkTheme = ThemeData(
       fontWeight: FontWeight.bold,
       color: const_colors.darkFocus,
     ),
-    headline6: TextStyle(
-      fontSize: const_fonts.headline6Size,
-      fontWeight: FontWeight.normal,
-      color: const_colors.darkFocus,
-    ),
     bodyText1: TextStyle(
       fontSize: const_fonts.bodyText1Size,
       fontWeight: FontWeight.normal,
