@@ -48,17 +48,17 @@ class MovieInfoScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const Positioned.fill(
+                  Positioned.fill(
                     child: DecoratedBox(
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                           begin: FractionalOffset.bottomCenter,
                           end: FractionalOffset.topCenter,
                           colors: [
-                            Colors.black,
-                            Colors.black12,
+                            theme.scaffoldBackgroundColor,
+                            Colors.transparent,
                           ],
-                          stops: [0.0, 1.0],
+                          stops: const [0.0, 1.0],
                         ),
                       ),
                     ),

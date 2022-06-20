@@ -27,7 +27,7 @@ class BigMovieCard extends StatelessWidget {
     final genres = movie.genres ?? [];
 
     return Card(
-      color: Colors.transparent,
+      color: theme.shadowColor.withOpacity(0.5),
       shadowColor: Colors.transparent,
       margin: const EdgeInsets.symmetric(
         horizontal: const_measures.bigHorMargin,
